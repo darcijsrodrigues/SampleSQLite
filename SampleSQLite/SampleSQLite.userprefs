@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{9C5EF099-8D0F-4941-ACA8-9E85D2002C8E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleSQLite/Views/ToDoListPage.xaml.cs">
+    <Files>
+      <File FileName="SampleSQLite/IFileHelper.cs" Line="6" Column="40" />
+      <File FileName="Droid/FileHelper.cs" Line="11" Column="32" />
+      <File FileName="iOS/FileHelper.cs" Line="11" Column="45" />
+      <File FileName="SampleSQLite/Models/TodoItem.cs" Line="6" Column="3" />
+      <File FileName="SampleSQLite/Data/TodoItemDatabase.cs" Line="20" Column="1" />
+      <File FileName="SampleSQLite/App.xaml.cs" Line="31" Column="86" />
+      <File FileName="SampleSQLite/Views/ToDoListPage.xaml.cs" Line="19" Column="1" />
+      <File FileName="SampleSQLite/Views/ToDoListPage.xaml" Line="6" Column="45" />
+      <File FileName="SampleSQLite/Views/TodoItemPage.xaml" Line="15" Column="58" />
+      <File FileName="SampleSQLite/Views/TodoItemPage.xaml.cs" Line="25" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SampleSQLite" expanded="True">
+            <Node name="SampleSQLite" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="TodoItemPage.xaml" expanded="True" />
+                <Node name="ToDoListPage.xaml" expanded="True">
+                  <Node name="ToDoListPage.xaml.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="SampleSQLite.Droid" expanded="True" />
+            <Node name="SampleSQLite.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SampleSQLite.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF883419-3745-42DB-8DE7-5E65460DE4B3" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Volumes/SSD_480/ProjectsXamarin/SampleSQLite/SampleSQLite/Views/TodoItemPage.xaml.cs" line="24" column="1" />
+      <Breakpoint file="/Volumes/SSD_480/ProjectsXamarin/SampleSQLite/SampleSQLite/Views/ToDoListPage.xaml.cs" line="19" column="1" />
+      <Breakpoint file="/Volumes/SSD_480/ProjectsXamarin/SampleSQLite/SampleSQLite/Views/ToDoListPage.xaml.cs" line="14" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../HD_DarciJr/bkp/Projects/Dietando/App/Dietando/Dietando/Api/ApiCall.cs" line="26" offsetX="703" offsetY="330" expression="client.DefaultRequestHeaders" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.SampleSQLite.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

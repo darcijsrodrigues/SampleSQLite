@@ -1,0 +1,16 @@
+SampleSQLite
+ 1 - instalar sqlite-net-pcl via NuGet pasta references VS packages XS
+ 2 - criar interface IFileHelper
+    (interface para abstrair a funcionalidade especifica da plataforma, que é determinar
+     a localizaçao do arquivo de banco de dados )
+ 3 - Usar DependecyService para implementar e obter o caminho do arquivo local(FileHelper IOs/Android)
+ 4 - criar pasta Model e entidade
+ 5 - criar pasta Data e dentro dela ***DataBase, implementar os métodos de interaçao com o banco
+     *(ao utilizar API sqlite.net assíncrona, as operaçoes de banco de dados sáo movidos para threads em segundo plano)
+     *(Todo código de acesso a dados são gravados no PCL, apenas o caminho do arquivo local de banco de dados requer um 
+       código específico da plataforma)
+ 6 - na classe app.Application, criar o obj `TodoItemDatabase`, implementar método que verifica se o database foi criado 
+     e o retorna, senáo foi o cria
+ 7 - criar page que será chamada na Application.MainPage, neste caso: ToDoListPage. 
+     Criar os eventos de click da page.
+ 8 - Criar page TodoItemPage, que irá realizar o crud
